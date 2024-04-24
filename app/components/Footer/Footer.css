@@ -1,0 +1,22 @@
+.slider::before,
+.slider::after {
+	content: "";
+	position: absolute;
+	width: 6rem;
+	height: 100%;
+	z-index: 1;
+	pointer-events: none;
+	top: 0;
+	background: linear-gradient(270deg, #fff 11.76%, rgba(255, 255, 255, 0) 93.63%),
+		linear-gradient(270deg, #fff 11.76%, rgba(255, 255, 255, 0) 93.63%);
+}
+
+.slider::before {
+	left: 0;
+	transform: rotate(180deg);
+
+}
+
+.slider::after {
+	right: 0;
+}

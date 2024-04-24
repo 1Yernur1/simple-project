@@ -1,0 +1,4 @@
+.hero {
+	background: url("../../../public/images/hero-cards.png") no-repeat center bottom,
+		url("../../../public/images/hero-bg.png") no-repeat center bottom;
+}
